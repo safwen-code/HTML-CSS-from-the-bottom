@@ -1,0 +1,8 @@
+list-style-type :disc, circle, square, decimal, lower-roman,
+ upper-roman, lower-alpha, upper-alpha, none :Type de liste
+
+list-style-position :inside, outside :Position en retrait
+
+list-style-image :url('puce.png') :Puce personnalisée
+
+list-style:Super-propriété de liste. Combinelist-style-type,list-style-position,list-style-image.

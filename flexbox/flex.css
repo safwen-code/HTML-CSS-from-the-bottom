@@ -1,0 +1,34 @@
+#conteneur {
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: row; */
+    /* pas de retour à la ligne  */
+    /* flex-wrap: nowrap; */
+    /* les éléments vont à la ligne lorsqu'il n'y a plus la place */
+    /* flex-wrap: wrap; */
+    /* les éléments vont à la ligne lorsqu'il n'y a plus la place en sens inverse */
+    /* flex-wrap: wrap-reverse; */
+    /* alignés au début (par défaut) */
+    /* justify-content: start; */
+    /*  mes éléments à aller à la ligne*/
+    /* align-content: center; */
+}
+
+.element {
+    width: 50%;
+    height: 110px;
+}
+
+.element:nth-child(1) {
+    background-color: blue;
+    /* permettre à un élément de grossir pour occuper tout l'espace restant */
+    /* flex: 1; */
+}
+
+.element:nth-child(2) {
+    background-color: blueviolet;
+}
+
+.element:nth-child(3) {
+    background-color: brown;
+}

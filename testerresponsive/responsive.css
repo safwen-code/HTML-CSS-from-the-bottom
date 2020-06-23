@@ -1,0 +1,21 @@
+p {
+    color: chocolate;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin: 10px 0px 5px 2px;
+}
+
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+
+@media screen and (max-width: 1024px) {
+    p {
+        color: brown;
+        background-color: burlywood;
+        font-size: 1.4emem;
+        font-style: italic;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}

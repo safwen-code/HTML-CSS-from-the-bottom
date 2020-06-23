@@ -1,0 +1,16 @@
+color :coleur de text
+
+background-color :Identique à color :Couleur de fond
+
+background-image :url('image.png') :Image de fond
+
+background-attachment :fixed, scroll :Fond fixe
+
+background-repeat :repeat-x, repeat-y, no-repeat, repeat :Répétition du fond
+
+background-position :(x y), top, center, bottom, left, right :Position du fond
+
+background :Super propriété du fond
+Combine :background-image,background-repeat,background-attachment,background-position
+
+opacity :0.5 :Transparence

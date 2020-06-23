@@ -1,0 +1,24 @@
+display :block, inline, inline-block, table, table-cell, none :Type d'élément (block,inline,inline-block,none…)
+
+visibility :visible, hidden :Visibilité
+
+clip :rect (0px, 60px, 30px, 0px)rect (haut, droite, bas, gauche) :Affichage d'une partie de l'élément
+
+overflow :auto, scroll, visible, hidden :Comportement en cas de dépassement
+
+float :left, right, none :Flottant
+
+clear :left, right, both, none :Arrêt d'un flottant
+
+position :relative, absolute, static :Positionnement
+
+top :20px :Position par rapport au haut
+
+bottom :20px :Position par rapport au bas
+
+left :20px :Position par rapport à la gauche
+
+right :20px :Position par rapport à la droite
+
+z-index :10 :Ordre d'affichage en cas de superposition.
+La plus grande valeur est affichée par-dessus les autres.

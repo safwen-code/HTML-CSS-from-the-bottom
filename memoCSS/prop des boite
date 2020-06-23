@@ -1,0 +1,55 @@
+width : 150px, 80%... :Largeur
+
+height :150px, 80%... :Hauteur
+
+min-width :150px, 80%... :Largeur minimale
+
+max-width :150px, 80%... :Largeur maximale
+
+min-height:150px, 80%...:Hauteur minimale
+
+max-height:150px, 80%...:Hauteur maximale
+
+// les margin
+
+margin-top :23px :Marge en haut
+
+margin-left :23px :Marge à gauche
+
+margin-right :23px :Marge à droite
+
+margin-bottom :23px :Marge en bas
+
+margin :23px 5px 23px 5px
+(haut, droite, bas, gauche) : Super-propriété de marge Combine :margin-top,margin-right,margin-bottom,margin-left.
+
+// les padding
+
+padding-left :23px :Marge intérieure à gauche
+
+padding-right :23px :Marge intérieure à droite
+
+padding-bottom :23px :Marge intérieure en bas
+
+padding-top :23px :Marge intérieure en haut
+
+padding :23px 5px 23px 5px
+(haut, droite, bas, gauche)
+Super-propriété de marge intérieure.
+Combine :padding-top,padding-right,padding-bottom,padding-left
+
+// les bordure
+
+border-width :3px :Épaisseur de bordure
+
+border-color :nom, rgb(rouge,vert,bleu), rgba(rouge,vert,bleu,transparence):Couleur de bordure
+
+border-style :solid, dotted, dashed, double, groove, ridge, inset, outset :Type de bordure
+
+border :3px solid black :Super-propriété de bordure. Combineborder-width,border-color,border-style.
+Existe aussi en versionborder-top,border-right,border-bottom,border-left
+
+border-radius :5px :Bordure arrondie
+
+box-shadow :6px 6px 0px black(horizontale, verticale, fondu, couleur) :Ombre de boîte
+

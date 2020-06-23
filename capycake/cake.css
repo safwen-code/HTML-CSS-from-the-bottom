@@ -1,0 +1,27 @@
+h1 {
+    color: crimson;
+    font-size: 3rem;
+}
+
+figure {
+    text-align: center;
+}
+
+ul{
+    border: 5px brown solid;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 6px 6px 5px black;
+
+}
+a {
+    text-decoration: underline;
+    font-size: x-small;
+    font-style: italic;
+    color: rosybrown;
+}
+a:hover {
+  text-shadow: 7px 7px 2px black ;
+  font-size: x-large;
+  font-style: oblique;
+  color: blueviolet;
+}

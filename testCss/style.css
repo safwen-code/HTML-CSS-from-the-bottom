@@ -1,0 +1,62 @@
+body
+{
+    /* background-color: black; */
+    background: url('test.jpeg') fixed no-repeat center bottom , 
+    url('images/Webp.net-resizeimage.png') fixed no-repeat top right;
+
+    /* background-repeat: no-repeat;
+    /* background-position: 180px 65px; */
+    /* background-position: center bottom; */
+    /* background-attachment: fixed; */ 
+    /* color:rgb(180, 85, 100); */
+    
+}
+p {
+    background-color: black;
+    color: darksalmon;
+    opacity: 0.3;
+}
+
+h1 {
+    border: 10px blueviolet solid;
+    /* border-top: 10px solid; */
+    /* border-radius: 10px; */
+    border-radius: 10px 5px 5px 10px;
+    box-shadow: 10px 10px 6px  blue inset;
+    text-shadow: 10px 10px 4px black;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    font-style: italic;
+    font-size: medium;
+}
+/* permet de changer l'apparence au survol  */
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+}
+
+/* modifie l'apparence des liens au moment du clic */
+/* a:active{
+    text-decoration: underline;
+    color:blue;
+    font-size: x-small;
+} */
+
+
+/* permet de modifier l'apparence d'un élément sélectionné. */
+/* a:focus {
+    text-decoration: underline;
+    color:blue;
+    font-size: x-small; 
+} */
+
+/* lorsqu'un lien a déjà été visité */
+/* a:visited {
+    text-decoration: underline;
+    color:blue;
+    font-size: x-small; 
+} */

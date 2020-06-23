@@ -1,0 +1,33 @@
+h1 {
+    color: chocolate;
+}
+
+.bloc1 {
+    width: 50%;
+    min-width: 400px;
+    border: 1px solid black;
+    /* margin: 10px; */
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+}
+
+.bloc2 {
+    width: 60%;
+    max-width: 400px;
+    border: 1px solid red;
+    margin: 10px 0px 5px 2px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.coupBloc {
+    text-align: justify;
+    width: 250px;
+    border: 1px solid blue;
+    height: 110px;
+    margin: 10px 16px 30px 14px;
+    padding: 10px;
+    /* overflow: scroll; */
+    word-wrap: break-word;
+}

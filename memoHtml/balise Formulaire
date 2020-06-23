@@ -1,0 +1,17 @@
+<form> Formulaire
+
+<fieldset> Groupe de champs
+
+<legend> Titre d'un groupe de champs
+
+<label> Libellé d'un champ
+
+<input /> Champ de formulaire (texte, mot de passe, case à cocher, bouton, etc.)
+
+<textarea> Zone de saisie multiligne
+
+<select> Liste déroulante
+
+<option> Élément d'une liste déroulante
+
+<optgroup> Groupe d'éléments d'une liste déroulante

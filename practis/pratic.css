@@ -1,0 +1,40 @@
+#topheader {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p {
+    width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foo {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    border-radius: 10px 5px 10px 5px;
+}
+
+#topheader h1 {
+    text-shadow: 10px 10px 6px black;
+}
+
+a {
+    color: black;
+    font-style: normal;
+    font-size: medium;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: x-large;
+    font-style: italic;
+    text-transform: capitalize;
+}
